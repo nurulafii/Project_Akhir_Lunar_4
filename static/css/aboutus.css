@@ -1,0 +1,54 @@
+body {
+  font-family: "Outfit", sans-serif;
+  background-color: rgba(104, 19, 6, 1);
+}
+
+/* Navbar NurvaAlbiky */
+.navbar-brand {
+  font-family: "Aclonica", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 27px;
+  text-align: center;
+  letter-spacing: 0.015em;
+}
+
+/* Navbar active */
+.nav-link.active {
+  font-family: "Outfit";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 32px;
+  color: #ff8a00;
+}
+
+/* Navbar link */
+.nav-link {
+  font-family: "Outfit";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 32px;
+}
+
+section {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  width: 80vw;
+  margin: 0 auto;
+  color: #ffffff;
+  margin-top: 15vh;
+  margin-left: 20vh;
+}
+.image {
+  display: flex;
+  margin-right: 10vh;
+}
+
+.content p {
+  font-family: "Outfit";
+  font-style: normal;
+  font-size: 20px;
+}

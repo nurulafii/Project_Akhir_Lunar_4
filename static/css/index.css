@@ -1,0 +1,86 @@
+body {
+  font-family: "Outfit", sans-serif;
+  background-color: rgba(104, 19, 6, 1);
+}
+
+/* Navbar NurvaAlbiky */
+.navbar-brand {
+  font-family: "Aclonica", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 27px;
+  text-align: center;
+  letter-spacing: 0.015em;
+}
+
+/* Navbar active */
+.nav-link.active {
+  font-family: "Outfit";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 32px;
+  color: #ff8a00;
+}
+
+/* Navbar link */
+.nav-link {
+  font-family: "Outfit";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 32px;
+}
+
+/* text  */
+.text1 {
+  font-family: "Walter Turncoat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 60px;
+  line-height: 114.65%;
+  /* or 92px */
+  letter-spacing: 0.06em;
+}
+
+.text2 {
+  font-family: "Voces";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 160.65%;
+  /* or 39px */
+  letter-spacing: 0.08em;
+}
+
+.button-primary {
+  background-color: #ff8a00;
+  color: #ffffff;
+  border-radius: 27px;
+  padding: 10px 28px;
+  font-family: "Outfit";
+  width: 150px;
+  height: 45px;
+  border: none;
+}
+
+.text-hero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.image-hero {
+  display: flex;
+  justify-content: end;
+  height: 500px;
+  width: 850px;
+}
+
+#hero {
+  color: white;
+}
+#hero span {
+  color: #ff8a00;
+}

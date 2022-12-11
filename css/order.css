@@ -1,0 +1,196 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css");
+@import url("https://fonts.googleapis.com/css2?family=Hind:wght@500&family=Outfit:wght@300&display=swap");
+.sidebar {
+  background-color: #ff8a00;
+  width: 86px;
+  display: flex;
+  box-sizing: border-box;
+  flex-direction: column;
+  position: absolute;
+  width: 86px;
+  height: 1028px;
+  left: 0px;
+  top: 0px;
+}
+
+.main {
+  position: absolute;
+  width: 48px;
+  height: 48px;
+  left: 21px;
+  top: 35px;
+}
+
+.list-item {
+  margin-top: 20pt;
+}
+
+.logo {
+  position: absolute;
+  width: 275px;
+  height: 68px;
+  left: 148px;
+  top: 11px;
+}
+
+.left-navbar {
+  background-color: #ff8a00;
+  height: 100vh;
+}
+
+.nav-link.active {
+  background-color: #ffa33a !important;
+}
+
+.right-navbar {
+  background-color: #ff8a00;
+  color: white !important;
+  width: 424px;
+  height: 100vh;
+}
+.content {
+  height: 100vh;
+  background-color: #681306;
+}
+
+.navbar-brand {
+  font-family: "Aclonica", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 27px;
+  text-align: center;
+  letter-spacing: 0.015em;
+  padding-top: 25px;
+}
+.card-order {
+  border: 3px solid #ff8a00 !important;
+}
+.nama-produk {
+  font-family: Outfit;
+  font-weight: 700;
+  font-size: 17px;
+}
+.detail-produk {
+  font-weight: 400;
+  font-size: 11px;
+  font-family: Outfit;
+}
+.harga-produk {
+  font-weight: 700;
+  font-size: 17px;
+  font-family: Hind;
+  color: #ff8a00;
+}
+.gap-4 {
+  gap: 30px !important;
+}
+
+.card-produk {
+  margin: 40px 40px;
+  color: white;
+  height: 80vh;
+  overflow-y: auto;
+}
+
+.right-navbar {
+  width: 360px;
+  left: 1016px;
+  top: 0px;
+}
+.input-group-text {
+  border: 1px solid #ff8a00 !important;
+  color: white;
+  padding: 12px;
+  border-right: none !important;
+  border-top-left-radius: 50px;
+  border-bottom-left-radius: 50px;
+}
+.search {
+  border: 1px solid #ff8a00 !important;
+  border-left: none !important;
+  color: white;
+  border-top-right-radius: 50px;
+  border-bottom-right-radius: 50px;
+}
+.search::placeholder {
+  color: white;
+}
+.search:focus {
+  border-color: #ff0000;
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(255, 0, 0, 0.6);
+}
+.header-container {
+  width: 100%;
+  background-color: #681306;
+  height: 3rem;
+  padding-top: 3%;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+.header-right-navbar {
+  font-family: Outfit;
+  font-weight: 700;
+  font-size: 24px;
+  text-align: center;
+}
+.header-card {
+  display: flex;
+  margin-bottom: 10px;
+}
+.container-produk-order {
+  height: 70vh;
+  overflow-x: auto;
+}
+.nama-produk-card {
+  font-family: "Outfit";
+  font-weight: 700;
+  font-size: 15px;
+  color: #ffffff;
+}
+.harga-produk-card {
+  font-weight: 700;
+  font-size: 14px;
+  font-family: Hind;
+  color: #ff8a00;
+}
+.button-card .btn-light {
+  padding: 0 0px;
+  margin-top: 0px;
+  height: 20px;
+  width: 20px;
+}
+
+.container-total {
+  width: 100%;
+  background-color: #681306;
+  height: 7rem;
+  margin-top: 10px;
+  padding-top: 3%;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+}
+.total-space {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-size: 14px;
+}
+.hr-total {
+  border: 1px dashed;
+  margin-top: 0px;
+  margin-bottom: 12px;
+}
+.btn-checkout {
+  margin-top: 8px;
+  background-color: #681306;
+  border-radius: 10px;
+  color: white;
+  font-weight: 700;
+}
+
+.button-card {
+  margin-top: -5px;
+}

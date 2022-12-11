@@ -1,0 +1,153 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "hallo ",
+        "hai ",
+        "halo ",
+        "hei ",
+        "hi ",
+        "hy ",
+        "pagi ",
+        "morning ",
+        "siang ",
+        "afternoon ",
+        "sore ",
+        "evening ",
+        "malam ",
+        "bro",
+        "sis",
+        "kawan",
+        "permisi",
+        "p"
+      ],
+      "responses": [
+        "Hai! Selamat datang direstoran NurvAlbiky, mau pesan apa hari ini?",
+        "Halo! Welcome to Restourant NurvAlbiky, apakah mau lihat menu?"
+      ]
+    },
+    
+    {
+      "tag": "penjelasan_Restoran_NurvAlbiky",
+      "patterns": [
+        "Apa itu Restoran NurvAlbiky?"
+      ],
+      "responses": [
+        "Restoran NurvAlbiky adalah sebuah restoran yang bertema Timur Tengah dengan bahan utama Domba, selain Domba kami juga menyediakan menu makanan Timur Tengah lainnya. Di tambah dengan kesan interior ala Timur Tengah"
+      ]
+    },
+
+    {
+      "tag": "tujuan_Restoran_NurvAlbiky",
+      "patterns": [
+        "Apa tujuan didirikannya Restoran NurvAlbiky?",
+        ""
+      ],
+      "responses": [
+        "Tujuannya adalah untuk mereka yang ingin mengetahui makanan ala Timur Tengah tanpa harus datang ke Negeri Timur Tengah."
+      ]
+    },
+
+    {
+      "tag": "Menu_Restoran_NurvAlbiky",
+      "patterns": [
+        "Apa saja menu yang ada di restoran NurvAlbiky?"
+      ],
+      "responses": [
+        "Menu yang kami sediakan terutama shawarma, Tabbouleh, Macthbous, Lamb Mandhi, Chicken Mandhi, Lamb Kabuli, Chicken Kabuli, Canay Bread, unutuk Minuman ada Ayran, Arabian Coffe, Safron Milk, Tamer Hindi."
+      ]
+    },
+    {
+      "tag": "Menu_best_seller_Restoran_NurvAlbiky",
+      "patterns": [
+        "Apa menu best seller di restoran NurvAlbiky?"
+      ],
+      "responses": [
+        "untuk Menu best seller ada Lamb kebuli, lugaimat, shawarma, dan canay bread."
+      ]
+    },
+    
+    {
+      "tag": "menu_makanan",
+      "patterns": [
+        "saya mau pesan shawarma",
+        "saya mau pesan Tabbouleh",
+        "saya mau pesan Macthbous",
+        "saya mau pesan Lamb Mandhi",
+        "saya mau pesan Chicken Mandhi",
+        "saya mau pesan Lamb Kabuli",
+        "saya mau pesan Chicken Kabuli",
+        "saya mau pesan Canay Bread",
+        "saya mau pesan Ayran",
+        "saya mau pesan Arabian Coffe",
+        "saya mau pesan Safron Milk",
+        "saya mau pesan Tamer Hindi",
+        "kalo gitu saya mau pesan shawarma",
+        "kalo gitu saya mau pesan Tabbouleh",
+        "saya mau pesan Macthbous",
+        "saya mau pesan Lamb Mandhi",
+        "saya mau pesan Chicken Mandhi",
+        "saya mau pesan Lamb Kabuli",
+        "saya mau pesan Chicken Kabuli"
+      ],
+      "responses": [
+        "baik, apa ada yang mau tambah lagi?"
+      ]
+    },
+
+    {
+      "tag": "minuman_&_deseart",
+      "patterns": [
+        " saya mau pesan canay bread juga ya? ",
+        " saya mau pesan ayran sama safron milk",
+        " sama ini saya mau pesan cokelat unta juga",
+        " saya mau pesan coklat unta dan esh asarya, safron milk, tamer hindi"
+
+      ],
+      "responses":[
+        "baik, ditunggu ya nanti pesanannya saya antar"
+      ]
+    },
+
+    {
+      "tag": "pembayaran_restoran_NurvAlbiky",
+      "patterns": [
+        "bayar dimana?",
+        "bayar bisa melalui apa saja?"
+      ],
+      "responses": [
+        "untuk pembayaran bisa cash, atau dapat menggunakan kartu debit dan e-wallet."
+      ]
+    },
+
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Dah",
+        "Dadah",
+        "Bye",
+        "Byee",
+        "Good bye",
+        "Selamat tinggal",
+        "Sampai jumpa",
+        "Bai",
+        "See you",
+        "oke",
+        "ok",
+        "Have a nice day"
+      ],
+      "responses": [
+        "Bye!",
+        "Dadahh!",
+        "Good bye!",
+        "Dahh, semoga harimu menyenangkan yaa!",
+        "Sampai jumpa lagi!",
+        "See u! Terimakasih sudah memesan makanan di NurvAlbiky",
+        "Sampai jumpa kembali direstoran NurvAlbiky",
+        "Have a nice day Foodies",
+        "ok, Selamat datang kembali"
+      ]
+    }
+  ]
+}

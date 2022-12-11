@@ -1,0 +1,58 @@
+.kotak-judul {
+  width: 911px;
+  left: 294px;
+  top: 35px;
+  background: #ff8a00;
+  border-radius: 20px;
+  font-family: "Outfit";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 50px;
+  text-align: center;
+  color: #ffffff;
+  padding: 4px;
+}
+
+.form-label {
+  font-family: "Outfit";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 109.02%;
+  color: #ffffff;
+}
+
+.form-control {
+  border: 3px solid #ff8a00;
+  border-radius: 20px;
+  font-family: "Outfit";
+  width: 911px;
+  color: #ffffff !important;
+}
+
+.qty {
+  border: 1px solid #ff8a00;
+  border-radius: 20px;
+  font-family: "Outfit";
+  width: 72px;
+  color: #ffffff !important;
+  font-size: 10px;
+}
+
+.form-label-qty {
+  font-family: "Outfit";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 10px;
+  color: #ffffff;
+}
+
+.form-control-qty {
+  border: 1px solid #ff8a00;
+  border-radius: 20px;
+  font-family: "Outfit";
+  width: 72px;
+  color: #ffffff !important;
+  font-size: 10px;
+}
